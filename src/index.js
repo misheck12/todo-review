@@ -70,7 +70,6 @@ const populateHtml = (tasks) => {
     oDiv.addEventListener('click', () => {
       if (sIpt.readOnly) {
         sIpt.readOnly = false;
-        oDiv.style.display = 'none';
         dDiv.style.display = 'block';
         li.style.backgroundColor = 'rgb(235, 252, 231)';
         sIpt.style.backgroundColor = 'rgb(235, 252, 231)';
