@@ -169,7 +169,3 @@ input[type='text'] {
   align-content: center;
   flex-direction: column;
 }
-
-.txt-bottom:hover {
-  cursor: pointer;
-}
