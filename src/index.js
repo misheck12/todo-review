@@ -80,7 +80,6 @@ const populateHtml = (tasks) => {
       if (event.key === 'Enter') {
         sIpt.readOnly = true;
         oDiv.style.display = 'block';
-        dDiv.style.display = 'none';
         li.style.backgroundColor = 'white';
         sIpt.style.backgroundColor = 'white';
         updateTask(element.index, sIpt.value);
